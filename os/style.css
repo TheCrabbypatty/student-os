@@ -1,0 +1,139 @@
+body {
+    color: white;
+    background-color: rgba(0, 0, 1, 0.93);
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    font-variation-settings:
+    "GRAD" 0;
+}
+
+h1{
+    position: absolute;
+    top: 2.5%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+}
+
+#dynamic_bar {
+    display: flex;
+    align-items: center;
+    background-color: rgba(64, 64, 64, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 98.25vw;
+}
+
+#home_icon {
+    position: absolute;
+    top: 6%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+}
+
+#calendar_icon {
+    position: absolute;
+    top: 6%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+}
+
+#task_icon {
+    position: absolute;
+    top: 6%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+}
+
+#study_icon {
+    position: absolute;
+    top: 6%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+}
+
+#code_icon {
+    position: absolute;
+    top: 6%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+}
+
+#health_icon {
+    position: absolute;
+    top: 6%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+}
+
+#analytics_icon {
+    position: absolute;
+    top: 6%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+}
+
+#settings_icon {
+    position: absolute;
+    top: 6%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+}
+
+#dashboard_grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-auto-flow: dense !important; 
+    gap: 20px !important;
+}
+
+#current_focus_card {
+    background-color: rgba(64, 64, 64, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+    height: 60vh;
+    width: 75vw;
+} 
+
+#stats_card {
+    background-color: rgba(64, 64, 64, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+    height: 60vh;
+    width: 21.3vw;
+}
+
+#schedule_card {
+    background-color: rgba(64, 64, 64, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+    height: 20vh;
+    width: 75vw;             
+}
+
+#next_event_card {
+    background-color: rgba(64, 64, 64, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+    height: 20vh;
+    width: 21.3vw;
+}
+
+#task_card {
+    background-color: rgba(64, 64, 64, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+    height: 20vh;
+    width: 75vw; 
+}
+
+#quick_actions_card {
+    background-color: rgba(64, 64, 64, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+    height: 20vh;
+    width: 21.3vw;
+}
