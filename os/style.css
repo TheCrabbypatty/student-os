@@ -16,6 +16,9 @@ h1{
     transform: translate(-50%, -50%);
 }
 
+img {
+    border-radius: 50px;
+}
 #dynamic_bar {
     display: flex;
     align-items: center;
@@ -29,56 +32,56 @@ h1{
 
 #home_icon {
     position: absolute;
-    top: 6%;
+    top: 5.5%;
     left: 23%;
     transform: translate(-50%, -50%);
 }
 
 #calendar_icon {
     position: absolute;
-    top: 6%;
+    top: 5.5%;
     left: 33%;
     transform: translate(-50%, -50%);
 }
 
 #task_icon {
     position: absolute;
-    top: 6%;
+    top: 5.5%;
     left: 43%;
     transform: translate(-50%, -50%);
 }
 
 #study_icon {
     position: absolute;
-    top: 6%;
+    top: 5.5%;
     left: 53%;
     transform: translate(-50%, -50%);
 }
 
 #code_icon {
     position: absolute;
-    top: 6%;
+    top: 5.5%;
     left: 63%;
     transform: translate(-50%, -50%);
 }
 
 #health_icon {
     position: absolute;
-    top: 6%;
+    top: 5.5%;
     left: 73%;
     transform: translate(-50%, -50%);
 }
 
 #analytics_icon {
     position: absolute;
-    top: 6%;
+    top: 5.5%;
     left: 83%;
     transform: translate(-50%, -50%);
 }
 
 #settings_icon {
     position: absolute;
-    top: 6%;
+    top: 5.5%;
     left: 93%;
     transform: translate(-50%, -50%);
 }
@@ -88,6 +91,13 @@ h1{
     grid-template-columns: repeat(2, 1fr) !important;
     grid-auto-flow: dense !important; 
     gap: 20px !important;
+}
+
+.card {
+    display: flexbox;
+    background-color: rgba(64, 64, 64, 0.5);
+    border-radius: 10px;
+    padding: 5px;
 }
 
 #current_focus_card {
@@ -137,3 +147,4 @@ h1{
     height: 20vh;
     width: 21.3vw;
 }
+
