@@ -101,6 +101,8 @@ img {
 }
 
 #kanban {
+    background-color: rgba(64, 64, 64, 0.5);
+    border-radius: 10px;
     display: grid;
     grid-template-rows: repeat(3, minmax(100px, auto));
 }
